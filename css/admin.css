@@ -1,0 +1,11 @@
+table.striped, table.striped th, table.striped td {
+            border: 2px solid #000;
+            margin-top: 5%;
+        }
+#botsair{
+    margin-top: 2%;
+}
+
+ @media (max-width: 600px) {
+     
+ }

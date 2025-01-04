@@ -1,0 +1,485 @@
+#lei{
+margin-left: 40%;
+}
+#quadra{
+    border: 50px solid #00bcd4; /* Largura, Estilo, Cor da borda da tabela */
+    margin-top: 1%;
+    position: relative; /* Adiciona posicionamento relativo à div container */
+}
+
+#quadra2{
+    border: 50px solid #00bcd4; 
+    margin-top: 1%;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    #data1{
+        font-size: 15px;
+        margin-right: 20%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #data2{
+        font-size: 15px;
+        margin-left: 4%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -25px; /* Coloca os spans no topo da div container */
+    }
+    #gasto{
+        font-size: 15px;
+        margin-left: 25%;
+        left: 50%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #gasto2{
+        font-size: 15px;
+        margin-left: 4%;
+        left: 65%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -25px; /* Coloca os spans no topo da div container */
+    }
+    #ga{
+        font-size: 15px;
+        margin-left: 2%;
+        left: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: 1px; /* Coloca os spans no topo da div container */
+    }
+    #gast{
+        font-size: 15px;
+        margin-left: 10%;
+        left: 33%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: 20px; /* Coloca os spans no topo da div container */
+    }
+    #fari{
+        font-size: 15px;
+        margin-left: 50%;
+        left: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #espaco{
+        font-size: 15px;
+        margin-left: 12%;
+        left: 63%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -25px; /* Coloca os spans no topo da div container */
+    }
+    #espaco1{
+        font-size: 15px;
+        margin-left: 8%;
+        left: 63%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -25px; /* Coloca os spans no topo da div container */
+    }
+    #num{
+        font-size: 15px;
+        margin-right: 30%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -25px; /* Coloca os spans no topo da div container */
+        left: 15%;
+    }
+    #frase{
+        font-size: 20px;
+        top: 20%;
+        color: black;
+        margin-left: -5%;
+        margin-top: -4%;
+    }
+    
+    #fras{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .verde {
+        background-color: green;
+    }
+    
+    .amarelo {
+        background-color: yellow;
+        
+    }
+    #lei{
+        margin-left: 13%;
+        }
+    #butto{
+        margin-top: 2%;
+        margin-left: 5%;
+        }
+    
+  }
+  @media (min-width: 601px) and (max-width: 992px) {
+    #data1{
+        font-size: 25px;
+        margin-right: 20%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #data2{
+        font-size: 25px;
+        margin-right: 30%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -15px; /* Coloca os spans no topo da div container */
+    }
+    #gasto{
+        font-size: 25px;
+        margin-left: 25%;
+        left: 50%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #gasto2{
+        font-size: 25px;
+        margin-left: 4%;
+        left: 65%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    #ga{
+        font-size: 25px;
+        margin-left: 10%;
+        left: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #gast{
+        font-size: 25px;
+        margin-left: 10%;
+        left: 33%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -15px; /* Coloca os spans no topo da div container */
+    }
+    #fari{
+        font-size: 25px;
+        margin-left: 50%;
+        left: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #espaco{
+        font-size: 25px;
+        margin-left: -3%;
+        left: 80%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -15px; /* Coloca os spans no topo da div container */
+    }
+    #espaco1{
+        font-size: 25px;
+        margin-left: 10%;
+        left: 63%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -15px; /* Coloca os spans no topo da div container */
+    }
+    #num{
+        font-size: 25px;
+        margin-right: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -15px; /* Coloca os spans no topo da div container */
+        left: 10%;
+    }
+    #frase{
+        font-size: 25px;
+        top: 20%;
+        color: black;
+        margin-left: 25%;
+        margin-top: -3%;
+    }
+    
+    #fras{
+        margin-left: 30%;
+        margin-top: -4%;
+    }
+    #lei{
+        margin-left: 35%;
+        }
+    #butto{
+        margin-top: 2%;
+        margin-left: 7.5%;
+        }
+    .verde {
+        background-color: green;
+    }
+    
+    .amarelo {
+        background-color: yellow;
+        
+    }
+    }
+  @media (min-width: 993px) {
+    #data1{
+        font-size: 30px;
+        margin-right: 20%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #data2{
+        font-size: 30px;
+        margin-right: 30%;
+        left: 3%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+     
+    #gasto{
+        font-size: 25px;
+        margin-left: 10%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #gasto2{
+        font-size: 30px;
+        margin-left: 6%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    #num{
+        font-size: 30px;
+        margin-right: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+        left: 8%;
+    }
+    
+    #ga{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    
+    #gast{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 32%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    
+    #fari{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    
+    #espaco{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 64%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    #espaco1{
+        font-size: 30px;
+        margin-left: 8%;
+        left: 64%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    #espaco12{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    
+    #butto{
+        margin-top: 2%;
+        margin-left: 15%;
+    }
+    
+    
+    #frase{
+        font-size: 20px;
+        top: 20%;
+        color: black;
+        margin-left: 35%;
+        margin-top: -2%;
+    }
+    
+    #fras{
+        margin-left: 35%;
+        margin-top: -2%;
+    }
+    #lei{
+        margin-left: 35%;
+        }
+    #butto{
+            margin-top: 2%;
+            margin-left: 15%;
+        }
+    .verde {
+        background-color: green;
+    }
+    
+    .amarelo {
+        background-color: yellow;   
+    }    
+  }
+   @media (min-width: 1600px) {
+    #data1{
+        font-size: 30px;
+        margin-right: 20%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #data2{
+        font-size: 30px;
+        margin-right: 30%;
+        left: 3%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+     
+    #gasto{
+        font-size: 25px;
+        margin-left: 10%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    #gasto2{
+        font-size: 30px;
+        margin-left: 6%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    #num{
+        font-size: 30px;
+        margin-right: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+        left: 8%;
+    }
+    
+    #ga{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 25%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    
+    #gast{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 32%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    
+    #fari{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -45px; /* Coloca os spans no topo da div container */
+    }
+    
+    #espaco{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 64%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    #espaco1{
+        font-size: 30px;
+        margin-left: 8%;
+        left: 64%;
+        color: #000;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    #espaco12{
+        font-size: 30px;
+        margin-left: 10%;
+        left: 63%;
+        color: #fff;
+        position: absolute; /* Adiciona posicionamento absoluto aos spans */
+        top: -10px; /* Coloca os spans no topo da div container */
+    }
+    
+    #butto{
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    
+    
+    #frase{
+        font-size: 20px;
+        top: 20%;
+        color: black;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    #fras{
+        margin-left: 35%;
+        margin-top: -1%;
+    }
+    #lei{
+        margin-left: 40%;
+        }
+    #butto{
+            margin-top: 2%;
+            margin-left: 16.5%;
+        }
+    .verde {
+        background-color: green;
+    }
+    
+    .amarelo {
+        background-color: yellow;   
+    }    
+  }
+ 

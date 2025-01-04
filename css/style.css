@@ -1,0 +1,196 @@
+#frase{
+    text-align: center;
+}
+
+.login {
+    /*Mudar cor do fundo da div login*/
+    /* background-color: rgba(231, 235, 234, 0.8); */
+
+    /*Centralização da div*/
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*Bordas*/
+    padding: 40px;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  /* Estilo dos campos de entrada e botão */
+  border: 1px solid #0e0d0d;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.campo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-right: 100%;
+  }
+
+.im{
+width: 20%;
+}
+
+#logo{
+    width: 15%;
+    margin-top: -15px;
+    z-index: 1; 
+    width: 15%;
+    max-height: 400px; 
+}
+
+
+.imagem-container {
+    margin-top: -45px;
+    text-align: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+#tao{
+    width: 200px !important; /* Defina a largura desejada */
+    height: 50px !important; /* Defina a altura desejada */
+    font-size: 16px !important;  /* Defina o tamanho da fonte desejado */
+    top: -15%;
+    color: #ffffff;
+}
+
+.cadastro{
+    top: 10%;
+    color: #000000;
+}
+
+.cadas{
+    margin-top: 3%;
+}
+
+.bordered {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.bordered th,
+.bordered td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.hist{
+    margin-top: 2%;
+}
+
+.sair{
+    margin-top: 2%;
+}
+
+#botsair{
+    margin-left: 5px;
+    margin-top: 2%;
+}
+
+
+  
+  @media (max-width: 600px) {
+    #paragrafo {
+        font-size: 12px; /* Tamanho de fonte menor em telas pequenas */
+        margin-top: 50%;
+      }
+      #rodape{
+        margin-top: 110%;
+        margin-left: 16%;
+    }
+    #sobre-link{
+      color: #000;
+      margin-left: 40%;
+      position: absolute;
+      top: 93%;
+  }
+  }
+  @media (min-width: 601px) and (max-width: 992px) {
+    #paragrafo {
+        font-size: 14px; 
+        margin-left: 30%; 
+        margin-top: 36%;
+      }
+      #sobre-link{
+        color: #000;
+        margin-left: 20%;
+        position: absolute;
+        top: 50%;
+    }
+  }
+  @media (min-width: 993px) {
+    #paragrafo {
+        font-size: 14px; 
+        margin-left: 0%; 
+        margin-top: 41%;
+      }
+      #rodape{
+        margin-top: 15%;
+        
+    }
+      #sobre-link{
+      color: #000;
+      margin-left: 75%;
+      position: absolute;
+      top: 93.5%;
+  }
+  }
+  @media (min-width: 1024px) {
+    #paragrafo {
+        font-size: 14px; 
+        margin-left: 0; 
+        margin-top: 20%;
+      }
+      #rodape{
+        margin-top: 20%;
+        position:fixed;
+    }
+        #sobre-link{
+      color: #000;
+      margin-left: 75%;
+      position: absolute;
+      top: 93.5%;
+  }
+    
+  
+  }
+  @media (min-width: 1400px) {
+    #paragrafo {
+        font-size: 14px; 
+        margin-left: 0; 
+        margin-top: 75%;
+      }
+      #rodape{
+        margin-top: 22%;
+        position:fixed;
+    }
+        #sobre-link{
+      color: #000;
+      margin-left: 75%;
+      position: absolute;
+      top: 93.5%;
+  }
+  }
+  
+.im {
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+  }
+   #tab{
+      margin-top: 2%;
+  }
+  #tabela{
+   border: 2px solid #000;   
+  }
+ 
+    
